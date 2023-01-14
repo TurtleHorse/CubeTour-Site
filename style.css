@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+.color {
+  color: #04ddb2;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.link {
+  position: relative;
+  padding: 10px;
+  text-decoration: none;
+  color: grey;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.link:hover {
+  color: black;
+  transform: rotate(360deg);
+  transition: all 500ms ease;
+}
+
+.btn {
+  width: 150px;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: #04ddb2;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all ease-in-out 400ms;
+}
+
+.btn__nav {
+  margin-right: 20px;
+}
+
+.btn__nav:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.btn__nav:active {
+  transform: scale(0.9);
+}
+
+img {
+  margin-left: 20px;
+  cursor: pointer;
+  transition: all ease-in 300ms;
+}
+
+img:hover {
+  transform: rotate(360deg);
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing h1 {
+  font-size: 64px;
+  margin: 20px;
+}
+
+.landing h2 {
+  font-size: 64px;
+  margin-top: 30px;
+  text-align: center;
+  color: rgb(49, 49, 49);
+}
+
+.landing p {
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.video {
+  border-radius: 25px;
+  height: 100%;
+  box-shadow: 10px 10px 10px rgba(102, 102, 102, 0.925);
+}
+
+.btn__landing {
+  width: 250px;
+  margin: 20px;
+  
+}
+
+.btn__landing {
+  margin-right: 20px;
+}
+
+.btn__landing:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.btn__landing:active {
+  transform: scale(0.9);
+}
+
+.line{
+  border-top: solid 1px grey;
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.footer{
+  display: flex;
+}
+
+.footer-left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.footer-left-desc{
+  margin: 15px 0 15px 0;
+}
+.footer__img{
+  width: 36px;
+  height: 36px;
+  position: relative;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__column{
+  display: flex;
+  flex-direction: column;
+  padding: 0 80px 0 80px;
+  text-align: center;
+}
+
+.footer-a{
+  margin: 10px 0 10px 0;
+  text-decoration: none;
+  color: rgb(49, 49, 49);
+}
